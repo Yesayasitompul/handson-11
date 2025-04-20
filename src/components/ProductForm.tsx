@@ -98,7 +98,8 @@ const ProductForm: React.FC<ProductFormProps> = (props) => {
               "shadow appearance-none border rounded-r-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline " +
               (errors.price && "border-red-500")
             }
-            step="0.01" min="0"
+            step="0.01"
+            min="0"
             placeholder="0.00"
             {...register("price")}
           />
